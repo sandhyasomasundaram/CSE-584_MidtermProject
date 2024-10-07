@@ -3,7 +3,7 @@
 # From BERT to Custom Embeddings: A Comparative Study on LLM Output Classification
 
 ### Team Members:
-Lakshmi Chandrika Yarlagadda
+Lakshmi Chandrika Yarlagadda \
 Sandhya Somasundaram
 
 ## To run the repo
@@ -15,4 +15,7 @@ Run generate_xj.py script to generate sentence completions using various LLMs. U
 Ensure the data is split to ensure a balanced labels in the dataset. Such a dataset is saved in the data folder and is named CSE_584_Final_Dataset.csv
 
 ## Run Models
-The sentence transformer is combined with a neural network to create a classifier. This can be found in the Experiments&Final
+The sentence transformer is combined with a neural network to create a classifier. This can be found in the Sentence_transformer_Stella.ipynb. 
+Run this on google colab, it requires GPUs. Run it cell by cell to reproduce the results. There are also various experiments conducted on hyperparameter tuning which can be found in the notebook.
+
+The BERT model was also fine tuned to classify the LLMs. This can be found in Bert_Model.ipynb. This has to be run same as above in google colab or in a system with GPU. Ensure that the data file is saved in the same location as that of the notebooks. The experiments run on Bert model is stored in two different notebooks - Experiment_1_Bert_Model_CSE_584.ipynb and Experiment_2_Bert_Model_CSE_584.ipynb. Follow the above steps to run these notebooks on Google Colab. 
