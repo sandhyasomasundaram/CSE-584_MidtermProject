@@ -16,6 +16,7 @@ Run data_generation/generate_xj.py script to generate sentence completions using
 Ensure the data is split to ensure a balanced labels in the dataset. Such a dataset is saved in the data folder and is named CSE_584_Final_Dataset.csv
 
 ## Run Models
+Please Check the paths before running. The CSE_584_Final_Dataset.csv should be in a data folder which is in the same location as the notebooks.
 The sentence transformer is combined with a neural network to create a classifier. This can be found in the models/Sentence_transformer_Stella.ipynb. 
 Run this on google colab, it requires GPUs. Run it cell by cell to reproduce the results. There are also various experiments conducted on hyperparameter tuning which can be found in the notebook.
 
