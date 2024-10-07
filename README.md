@@ -11,8 +11,8 @@ Sandhya Somasundaram
 
 ## Data Generation
 
-Run generate_xi.py script to generate the truncated sentences from Open_Subtitles corpus. This generates a truncated_data.csv in the data folder. 
-Run generate_xj.py script to generate sentence completions using various LLMs. Update groq and OpenAPI keys in the file before running. Change the models name for various LLMs you wish to be generated.
+Run data_generation/generate_xi.py script to generate the truncated sentences from Open_Subtitles corpus. This generates a truncated_data.csv in the data folder. 
+Run data_generation/generate_xj.py script to generate sentence completions using various LLMs. Update groq and OpenAPI keys in the file before running. Change the models name for various LLMs you wish to be generated.
 Ensure the data is split to ensure a balanced labels in the dataset. Such a dataset is saved in the data folder and is named CSE_584_Final_Dataset.csv
 
 ## Run Models
