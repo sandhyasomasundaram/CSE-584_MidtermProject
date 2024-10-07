@@ -1,7 +1,7 @@
 ﻿# CSE-584_MidtermProject
 
 # From BERT to Custom Embeddings: A Comparative Study on LLM Output Classification
-Please find the comprehensive report - ML_584_Midterm.pdf
+Please find the comprehensive report - 584_Midterm_Project_Report.pdf
 
 ### Team Members:
 Lakshmi Chandrika Yarlagadda \
